@@ -24,4 +24,6 @@ Things you may want to cover:
 * ...
 
 ---
-`rails new rails_8_starter --edge`
+### Steps:
+- `gem install rails --pre`
+- `rails new rails_8_starter --edge`
