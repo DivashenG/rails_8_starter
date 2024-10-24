@@ -1,0 +1,34 @@
+# .github/workflows/rspec.yml
+
+name: RSpec
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.4' # Adjust to your Ruby version
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Precompile assets
+        run: |
+          RAILS_ENV=test bundle exec rake assets:precompile
+
+      - name: Run RSpec
+        run: |
+          bundle exec rspec
