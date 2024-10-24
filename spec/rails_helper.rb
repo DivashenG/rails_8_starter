@@ -2,9 +2,7 @@
 
 # The following line is required for the Codeclimate code coverage reporting
 require 'simplecov'
-SimpleCov.start do
-  add_filter "/spec/"
-end
+SimpleCov.start 'rails'
 
 require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
