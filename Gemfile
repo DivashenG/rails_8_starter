@@ -71,5 +71,5 @@ group :test do
   gem "shoulda-matchers"
 
   # Code climate test reporter
-  gem 'codeclimate-test-reporter', require: false
+  gem "codeclimate-test-reporter", require: false
 end
