@@ -1,7 +1,7 @@
 # README
 
 ### Repo Statuses
-[![RSpec](https://github.com/DivashenG/rails_8_starter/actions/workflows/rspec.yml/badge.svg)](https://github.com/DivashenG/rails_8_starter/actions/workflows/rspec.yml)
+[![RSpec](https://github.com/DivashenG/rails_8_starter/actions/workflows/rspec.yml/badge.svg)](https://github.com/DivashenG/rails_8_starter/actions/workflows/rspec.yml) [![CI](https://github.com/DivashenG/rails_8_starter/actions/workflows/ci.yml/badge.svg)](https://github.com/DivashenG/rails_8_starter/actions/workflows/ci.yml)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
