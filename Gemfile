@@ -69,4 +69,7 @@ group :test do
 
   # Shoulda Matchers for testing model validations and associations
   gem "shoulda-matchers"
+
+  # SimpleCov for code coverage
+  gem "simplecov", require: false
 end
