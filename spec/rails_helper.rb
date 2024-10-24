@@ -30,6 +30,11 @@ rescue ActiveRecord::PendingMigrationError => e
   abort e.to_s.strip
 end
 RSpec.configure do |config|
+  if ENV['CODECLIMATE_REPO_TOKEN']
+    require 'codeclimate-test-reporter'
+    CodeClimate::TestReporter.start
+  end
+
   # Include FactoryBot methods
   config.include FactoryBot::Syntax::Methods
 
