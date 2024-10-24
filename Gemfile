@@ -71,5 +71,5 @@ group :test do
   gem "shoulda-matchers"
 
   # SimpleCov for code coverage
-  gem 'simplecov', require: false
+  gem "simplecov", require: false
 end
