@@ -49,6 +49,7 @@ Ensure you have the following installed:
 ruby '3.2.0'
 rails '8.0.0'
 nodejs '16.x'
+```
 
 ## Running Tests
 - Run tests with `rspec` or `bundle exec rspec`
