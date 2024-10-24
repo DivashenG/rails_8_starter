@@ -70,6 +70,6 @@ group :test do
   # Shoulda Matchers for testing model validations and associations
   gem "shoulda-matchers"
 
-  # Code climate test reporter
-  gem "codeclimate-test-reporter", require: false
+  # SimpleCov for code coverage
+  gem 'simplecov', require: false
 end

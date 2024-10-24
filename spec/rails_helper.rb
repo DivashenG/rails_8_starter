@@ -1,4 +1,11 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
+
+# The following line is required for the Codeclimate code coverage reporting
+require 'simplecov'
+SimpleCov.start do
+  add_filter "/spec/"
+end
+
 require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
@@ -30,11 +37,6 @@ rescue ActiveRecord::PendingMigrationError => e
   abort e.to_s.strip
 end
 RSpec.configure do |config|
-  if ENV['CODECLIMATE_REPO_TOKEN']
-    require 'codeclimate-test-reporter'
-    CodeClimate::TestReporter.start
-  end
-
   # Include FactoryBot methods
   config.include FactoryBot::Syntax::Methods
 

@@ -30,7 +30,6 @@ jobs:
           RAILS_ENV=test bundle exec rake assets:precompile
 
       - name: Run RSpec
-        env:
-          CODECLIMATE_REPO_TOKEN: '6c21fcde0b6148d7b8c6d3c6fa605ff78921a22f0bd5fcff7910991d6d3a55a1'
         run: |
           bundle exec rspec
+          CODECLIMATE_REPO_TOKEN='6c21fcde0b6148d7b8c6d3c6fa605ff78921a22f0bd5fcff7910991d6d3a55a1' codeclimate-test-reporter
