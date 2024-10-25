@@ -8,7 +8,7 @@
 ![Ruby](https://img.shields.io/badge/Ruby-3.3.4-red)
 ![Rails](https://img.shields.io/badge/Rails-8.1.0-red)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/123abc/maintainability)](https://codeclimate.com/github/DivashenG/rails_8_starter/maintainability)
+[//]: # ([![Maintainability]&#40;https://api.codeclimate.com/v1/badges/123abc/maintainability&#41;]&#40;https://codeclimate.com/github/DivashenG/rails_8_starter/maintainability&#41;)
 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/DivashenG/rails_8_starter)
