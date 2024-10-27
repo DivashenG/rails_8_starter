@@ -2,22 +2,25 @@
 
 > A starter template for exploring the latest Rails 8 features, built using the edge version of Rails.
 
+\
+Pipelines:\
 [![RSpec](https://github.com/DivashenG/rails_8_starter/actions/workflows/rspec.yml/badge.svg)](https://github.com/DivashenG/rails_8_starter/actions/workflows/rspec.yml)
 [![CI](https://github.com/DivashenG/rails_8_starter/actions/workflows/ci.yml/badge.svg)](https://github.com/DivashenG/rails_8_starter/actions/workflows/ci.yml)
 
+Stack:\
 ![Ruby](https://img.shields.io/badge/Ruby-3.3.4-red)
 ![Rails](https://img.shields.io/badge/Rails-8.1.0-red)
 
-[//]: # ([![Maintainability]&#40;https://api.codeclimate.com/v1/badges/123abc/maintainability&#41;]&#40;https://codeclimate.com/github/DivashenG/rails_8_starter/maintainability&#41;)
+Code Coverage & Maintainability:\
+[![Test Coverage](https://api.codeclimate.com/v1/badges/8304d858ba969367ee59/test_coverage)](https://codeclimate.com/github/DivashenG/rails_8_starter/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8304d858ba969367ee59/maintainability)](https://codeclimate.com/github/DivashenG/rails_8_starter/maintainability)
 
-
+Repository Activity:\
 ![GitHub last commit](https://img.shields.io/github/last-commit/DivashenG/rails_8_starter)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/DivashenG/rails_8_starter)
 ![GitHub issues](https://img.shields.io/github/issues/DivashenG/rails_8_starter)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/DivashenG/rails_8_starter)
 ![GitHub contributors](https://img.shields.io/github/contributors/DivashenG/rails_8_starter)
-
-
 
 
 ## Table of Contents
